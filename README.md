@@ -1,5 +1,10 @@
 # 📦 StockFacilAPI - Inventory Management API
 
+**⚠️ CRITICAL NOTICE: LIVE SERVICE EXPIRED ⚠️**
+**The PostgreSQL database service hosted on Render for the live demo has expired and is no longer active.**
+* **Live Demo URL** (`https://stockfacil.onrender.com`) **is currently NON-FUNCTIONAL.**
+* The application can be run successfully by setting up a **local PostgreSQL database** (see *Quick Start*) or by deploying to a new cloud service with an active database connection string.
+
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=render)](https://stockfacil.onrender.com)
 [![API Documentation](https://img.shields.io/badge/API%20Docs-Swagger-green?style=for-the-badge&logo=swagger)](https://stockfacil.onrender.com/api-docs)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
@@ -77,6 +82,7 @@ StockFacil is a full-featured inventory management API designed for small to med
    ```
    
    Configure your `.env` file:
+   **IMPORTANT:** Update the DATABASE_URL to point to a LOCAL or NEW PostgreSQL instance.
    ```env
    # Database
    DATABASE_URL="postgresql://username:password@localhost:5432/stockfacil"
